@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "zan-search": "../../dist/search/index",
+    "zan-cell": "../../dist/cell/index",
+    "zan-panel": "../../dist/panel/index",
+    "zan-cell-group": "../../dist/cell-group/index",
+    "zan-icon": "../../dist/icon/index"
+  }
+}

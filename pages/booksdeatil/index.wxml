@@ -1,0 +1,25 @@
+<zan-search
+      alignLeft="{{ true }}"
+      placeholder="搜索..."
+      searchStyle="height: 88rpx; padding: 0 30rpx; background: {{ searchbg || '#F2F2F2' }};"
+      inputStyle="height: 56rpx; border-radius: 8rpx;"
+      keyword="{{ inputValue }}"
+      placeholder="搜索图书"
+      focus="{{ focus }}"
+      bindchange="searchChange"
+      bindsearch="searchDone"
+/>
+
+<zan-panel title='玩转经院提供技术支持'>
+  <zan-cell-group>
+    <zan-cell icon= "description" title="Python" label="附加描述附加描述附加" value="详细信息">
+    <zan-icon slot="icon" type="description" />
+    </zan-cell>
+    <zan-cell icon= "description" title="Python1" label="附加描述附加描述附" value="详细信息">
+    <zan-icon slot="icon" type="description" />
+    </zan-cell>
+    <zan-cell icon= "description" title="Python2" label="附加描述附加描述附加" value="详细信息">
+    <zan-icon slot="icon" type="description" />
+    </zan-cell>
+  </zan-cell-group>
+</zan-panel>

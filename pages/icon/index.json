@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Icon 图标",
+  "usingComponents": {
+    "zan-icon": "../../dist/icon/index"
+  }
+}

@@ -1,0 +1,40 @@
+<view class='panel-class-index'>
+    <zan-row>
+      <zan-col col="21" offset="3" col-class="foot-index">
+      <zan-capsule color="#38f" leftText="合作商" color="#38f" rightText="玩转经院" />
+      @浙经院路由器真伪查询系统
+      </zan-col>
+    </zan-row>
+    
+    <view class='search-index'>
+      <zan-search
+            name="search"
+            value="{{inputValue}}"
+            alignLeft="{{ true }}"
+            placeholder="请输入路由器底部的mac地址"
+            keyword="{{ inputValue }}"
+            focus="{{ focus }}"
+            useCancel="{{ true }}"
+            bindchange="searchChange"
+            bindsearch="searchDone"
+            bindcancel="handleCancel"
+            bindtap="handlesumbit"
+          />
+    </view>
+</view>
+<zan-row>
+  <zan-col col="12" offset="8" col-class="admin-index" bindtap="handlerSale"> 
+  @管理员工作台
+  </zan-col>
+</zan-row>
+<zan-row>
+  <zan-col col="12" offset="8" col-class="sale-index" bindtap="handlerAdmin"> 
+  @销售人员登记系统
+  </zan-col>
+</zan-row>
+<zan-row>
+  <zan-col col="12" offset="8" col-class="foot-index">
+  @玩转经院独立合作商
+  </zan-col>
+</zan-row>
+<zan-toast id="zan-toast-test"></zan-toast>

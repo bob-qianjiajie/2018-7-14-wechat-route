@@ -1,0 +1,23 @@
+<zan-panel title="@销售人员内部管理系统">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <zan-cell-group>
+        <zan-field
+          name="user"
+          title="账号"
+          placeholder="sale"
+          focus="true"
+        >
+        </zan-field>
+        <zan-field
+          name="pwd"
+          title="密码"
+          placeholder="sale"
+          error="密码错误"
+        >
+        </zan-field>
+      </zan-cell-group>
+      <zan-button-group>
+      <button type="primary" formType="submit">Login</button>
+      </zan-button-group>
+  </form>
+  </zan-panel>

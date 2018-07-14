@@ -1,0 +1,24 @@
+<zan-panel title='订单查询'>
+  <zan-cell-group>
+    <zan-cell title="设备名称" >{{route.route_name}}</zan-cell>
+    <zan-cell title="设备版本">{{route.route_version}}</zan-cell>
+  </zan-cell-group>
+</zan-panel>
+<zan-panel title='详细信息'>
+  <zan-cell-group>
+    <zan-cell title="订单日期" label="{{route.order_date}}"></zan-cell>
+    <zan-cell title="销售工号" label="{{route.sale_id}}"></zan-cell>
+    <zan-cell title="路由器MAC地址" label="{{route.mac}}"></zan-cell>
+    <zan-cell title="保修时间" label="{{route.service_date}}"></zan-cell>
+    <zan-cell title="包换时间" label="{{route.change_date}}"></zan-cell>
+  </zan-cell-group>
+</zan-panel>
+<zan-panel title='购买人信息'>
+  <zan-cell-group>
+    <zan-cell title="姓名" label="{{route.user_name}}"></zan-cell>
+    <zan-cell title="寝室号" label="{{route.user_bedroom_id}}"></zan-cell>
+    <zan-cell title="学号" label="{{route.user_sid}}"></zan-cell>
+    <zan-cell title="联系方式" label="{{route.user_tel}}"></zan-cell>
+    <zan-cell title="购买方式" label="{{route.buy_type}}"></zan-cell>
+  </zan-cell-group>
+</zan-panel>

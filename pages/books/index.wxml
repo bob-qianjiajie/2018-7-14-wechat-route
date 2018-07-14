@@ -1,0 +1,26 @@
+<view class='panel-class-index'>
+    <zan-row>
+      <zan-col col="19" offset="5" col-class="foot-index">
+      <zan-capsule color="#38f" leftText="自媒体" color="#38f" rightText="玩转经院" />
+      @在线图书查询
+      </zan-col>
+    </zan-row>
+    
+    <view class='search-index'>
+      <zan-search
+            alignLeft="{{ true }}"
+            placeholder="请输入图书名称"
+            keyword="{{ inputValue }}"
+            focus="{{ focus }}"
+            useCancel="{{ true }}"
+            bindchange="searchChange"
+            bindsearch="searchDone"
+            bindcancel="handleCancel"
+          />
+    </view>
+</view>
+<zan-row>
+  <zan-col col="18" offset="7" col-class="foot-index">
+  @玩转经院工作室内部使用
+  </zan-col>
+</zan-row>

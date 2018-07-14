@@ -1,0 +1,21 @@
+<zan-row>
+<zan-col col="12" offset="8" col-class="error-index-img" bindtap="handlerSale"> 
+  <image style="width: 100px; height: 100px;" src="../../img/error.png" />
+</zan-col>
+</zan-row>
+<zan-panel title='系统未查询到本mac地址~'>
+  <view>
+    <zan-col col="23" offset="1" col-class="error-index-title">
+    @无此mac地址
+    </zan-col>
+    <zan-col col="23" offset="1" col-class="error-index-title">
+    @1.此产品不提供技术支持
+    </zan-col>
+    <zan-col col="23" offset="1" col-class="error-index-title">
+    @2.此产品无保修服务
+    </zan-col>
+    <zan-col col="23" offset="1" col-class="error-index-title">
+    @3.不建议购买
+    </zan-col>
+  </view>  
+</zan-panel>

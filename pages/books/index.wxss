@@ -1,0 +1,17 @@
+.panel-class-index {
+  position:absolute; 
+  bottom:90%;
+  width: 100%;
+}
+.search-index {
+  position:absolute; 
+  top:20px;
+  width: 100%;
+}
+.foot-index {
+  font-size:14px;
+  line-height:1;
+  color:#999;
+  position:absolute; 
+  bottom:0;
+}

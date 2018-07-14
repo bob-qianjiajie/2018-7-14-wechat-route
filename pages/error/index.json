@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "玩转经院",
+  "usingComponents": {
+    "zan-icon": "../icon/index",
+    "zan-capsule": "../../dist/capsule/index",
+    "zan-search": "../../dist/search/index",
+    "zan-panel": "../../dist/panel/index",
+    "zan-card": "../../dist/card/index",
+    "zan-row": "../../dist/row/index",
+    "zan-col": "../../dist/col/index"
+  }
+}
